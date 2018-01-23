@@ -148,7 +148,7 @@ echo "generating changelog . . .";
 git --no-pager log --pretty=oneline --abbrev-commit 1ded9a48..HEAD > $AROMA/changelog.txt
 
 #ubah nama device masing-masing (ido)
-ZIP=ZPX-Inferno-$z-Mido-Nougat-$DATE.zip;
+ZIP=ZPX-Inferno-$z-Mido-Nougat_newleds_$DATE.zip;
 
 # Create flashable zip
 if [ -f $KERNELPATH/$ZIMAGE ]; then
